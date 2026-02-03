@@ -6,10 +6,11 @@ import textwrap
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # --- IMPORT MODULES ---
-from config.settings import AVAILABLE_QARIS, AVAILABLE_EDITIONS, LINK_SAWERIA, LINK_BMC, LINK_PAYPAL
-from config.translations import TRANSLATIONS
-from modules.api import fetch_surah_list, fetch_surah_text
-from modules.logic import format_time, process_single_ayah
+# --- IMPORT MODULES ---
+from app_config.settings import AVAILABLE_QARIS, AVAILABLE_EDITIONS, LINK_SAWERIA, LINK_BMC, LINK_PAYPAL
+from app_config.translations import TRANSLATIONS
+from app_modules.api import fetch_surah_list, fetch_surah_text
+from app_modules.logic import format_time, process_single_ayah
 
 # ==========================================
 # 1. PAGE SETUP & THEME STATE

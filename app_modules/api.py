@@ -1,5 +1,5 @@
 import streamlit as st
-from modules.network import safe_request_get
+from app_modules.network import safe_request_get
 
 # ==========================================
 # API DATA FETCHING

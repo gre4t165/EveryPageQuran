@@ -5,7 +5,7 @@ import io
 import time
 import random
 from mutagen.mp3 import MP3
-from modules.network import safe_request_get
+from app_modules.network import safe_request_get
 
 # ==========================================
 # TEXT & AUDIO PROCESSING LOGIC
