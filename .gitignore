@@ -1,0 +1,20 @@
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE Settings (VS Code, PyCharm, etc)
+.vscode/
+.idea/
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
